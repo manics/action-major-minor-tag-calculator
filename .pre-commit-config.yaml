@@ -6,7 +6,7 @@
 
 repos:
   - repo: https://github.com/manics/precommit-npm-run-scripts
-    rev: ba715154694cd55f0418dc77bd3e2af0362f6d24
+    rev: 3df79dd8671bc76fb4598930f5f4b4e7d05e5a56
     hooks:
       - id: npm-run-scripts
         args: [format, package]
