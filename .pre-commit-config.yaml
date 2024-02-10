@@ -1,0 +1,12 @@
+# This is only for use with the pre-commit.ci service so that pull requests
+# are automatically formatted and ./dist/ is updated
+#
+# Do not add any other pre-commit hooks here, everything should be done in
+# package.json so that Python is not required.
+
+repos:
+  - repo: https://github.com/manics/precommit-npm-run-scripts
+    rev: ba715154694cd55f0418dc77bd3e2af0362f6d24
+    hooks:
+      - id: npm-run-scripts
+        args: [format, package]
